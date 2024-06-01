@@ -1,116 +1,97 @@
-# Yukki Music Bot Configs
-
-Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
-
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
-
-## Mandatory Vars
-
-- These are the minimum required vars need to setup to make Yukki Music Bot functional.
-
-1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
-3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+<h3 align="center">
+    ─「 ⋆ᴠᴇɢᴀ♪ 」─
+</h3>
+ 
+ 
+ ㅤ ㅤㅤ[![GIF](https://github.com/ZER0X77/ZER0X77/blob/main/ZER0X77.gif)](https://github.com/ZER0X77)
+   [![𝐕𝐄𝐆𝐀𝐌𝐔𝐒𝐈𝐂](https://github-stats-alpha.vercel.app/api?username=ZER0X77 "ZER0X77")](https://github-stats-alpha.vercel.app/api?username=ZER0X77 "ZER0X77")
+                                                          
+  
+<img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=🌿+𝐕𝐄𝐆𝐀𝐌𝐔𝐒𝐈𝐂+🌱">
 
 
-## Non-Mandatory Vars
-
-- These are the extra vars for extra features inside Music Bot. You can leave non mandatory vars for now and can add them later.
-
-1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
-2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
-3. `VIDEO_STREAM_LIMIT` : Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram. Default to 3 chats.
-4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
-5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
-6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
-
-## Play FileSize Limit Vars
-
-- Maximum File size limit for the audio and videos that a user can play from your bot. [Only Bytes Size Accepted]
-> You can convert mb into bytes from https://www.gbmb.org/mb-to-bytes and use it here 
-
-1. `TG_AUDIO_FILESIZE_LIMIT` : Maximum file size limit for audio files which can be streamed over vc. Defaults to 104857600 bytes, i.e. 100MB
-2. `TG_VIDEO_FILESIZE_LIMIT` : Maximum file size limit for video files which can be played. Defaults to 1073741824 bytes, i.e. 1024MB or 1GB
-
-
-## Bot Vars
-
-- These all vars are used for setting up bot. You can edit these vars if you want , else leave all of them as it is.
-
-1. `PRIVATE_BOT_MODE` : Set it true if you want your bot to be private only or False for all groups. Default to False
-2. `YOUTUBE_EDIT_SLEEP` : Time sleep duration For Youtube Downloader. Default to 3 seconds
-3. `TELEGRAM_EDIT_SLEEP` : Time sleep duration For Telegram Downloader. Default to 5 seconds
-4. `AUTO_LEAVING_ASSISTANT` : Set it in True if you want to leave your assistant after a certain amount of time.
-5. `ASSISTANT_LEAVE_TIME` : Time after which your assistant account will leave served chats automatically. Default to 5400 seconds, i.e 90 Mins
-6. `AUTO_DOWNLOADS_CLEAR` : Set it True if you want to delete downloads after the music playout ends. 
-7. `AUTO_SUGGESTION_MODE` : Set it True if you want to bot to suggest about bot commands to random chats of your bots. 
-9. `AUTO_SUGGESTION_TIME` : Time after which your bot will suggest random 1/10 chats of your served chats about bot commands. Default to 5400 seconds, i.e 90 Mins
-
-## Spotify Vars
-
-- You can play tracks or playlists from spotify from Yukki Music bot
-- You'll need these two vars to make spotify play working. This is not essential , you can leave them blank if you want.
-
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/spotify)
-
-
-1. `SPOTIFY_CLIENT_ID` : Get it from https://developer.spotify.com/dashboard 
-2. `SPOTIFY_CLIENT_SECRET` : Get it from https://developer.spotify.com/dashboard 
-
-
-## Heroku Vars
-
-- To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
-- You can fill this var using your API key or Authorization token.
-
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
-
-1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
-2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
-
-
-## Custom Repo Vars
-
-- If you plan to use Yukki Music Bot with your own customized or modified code.
-
-1. `UPSTREAM_REPO` : Your Upstream Repo URL or Forked Repo.
-2. `UPSTREAM_BRANCH` : Default Branch of your Upstream Repo URL or Forked Repo. 
-3. `GIT_TOKEN` : Your GIT TOKEN if your upstream repo is private
-4. `GITHUB_REPO` : Your Github Repo url, that will be shown on /start command
+<!--
+**ZER0X77/ZER0X77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
 
-## Images/Thumbnail Vars
+<p align="center">
+    <b>ᴠɪsɪᴛᴏʀs</b><br>
+ -->    <img align="middle" src="https://profile-counter.glitch.me/ZER0X77/count.svg" />
+</p>
+<!---
+ZER0X77/ZER0X77 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
 
-- You can change images which are used in Yukki Music Bot.
-- You can generate telegaph links from [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) and use it here.
+```
+class zero():
+    def __init__(self):
+        self.name = ['zero']
+        self.country = ['Egypt']
+        self.language = ['Arab', 'English']
+    def programming_languages(self):
+        return [
+            'Python', 'SQL'
+        ]
+    def markup_languages(self):
+        return [
+            'HTML', 'CSS'
+        ]
+    def developer_tools(self):
+        return [
+            'GitHub', 'Stack Overflow', 'Docker', 'Heroku',
+            'MongoDB', 'MySQL', 'Azure'
+        ]
+    def operating_system(self):
+        return [
+            'Windows', 'Android', 'Linux'
+        ]
+```
 
-1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
-2. `PING_IMG_URL` : Image which comes on /ping command of bot.
-3. `PLAYLIST_IMG_URL` : Image which comes on /play command of bot. 
-4. `GLOBAL_IMG_URL` : Image which comes on /stats command of bot. 
-5. `STATS_IMG_URL` : Image which comes on /stats command of bot. 
-6. `TELEGRAM_AUDIO_URL` : This image comes when someone plays audios from telegram. 
-7. `TELEGRAM_VIDEO_URL` : This image comes when someone plays videos from telegram. 
-8. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
-9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
-10. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
-11. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
-12. `SPOTIFY_ALBUM_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
-13. `SPOTIFY_PLAYLIST_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
+<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
 
-## Multi Assistant Mode
 
-- You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+
+
+  [![Github Trophies](https://github-profile-trophy.vercel.app/?username=ZER0X77&theme=transparent&no-bg=true&margin-w=15&margin-h=10&row=1&column=6&count_private=true)](https://ZER0X77.me)
+  
+  
+
+<p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=DAXXTEAM&show_icons=true&locale=en&layout=compact" alt="DAXXTEAM" /></p>
+
+# Contribution Graph:
+
+
+<p align="center">
+  <a href="https://github.com/ZER0X77">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZER0X77#version3"/>
+  </a>
+</p>
+<a href="https://github.com/ZER0X77"><img alt="Abir's Activity Graph" src="https://ghactivity.mrayush.me/graph?username=ZER0X77&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" /></a>
+
+
+
+# Github Streak ☠︎︎
+
+  [![GitHub Streak](https://streak-stats.demolab.com?user=ZER0X77&theme=radical&border_radius=5&date_format=j%20M%5B%20Y%5D&fire=FF8100)](https://ZER0X77.me)
+
+# 🛠️ Languages and tools☠︎︎
+</br>
+
+[![Languages and Tools](https://skillicons.dev/icons?i=androidstudio,bash,vscode,docker,git,github,linux,heroku,arduino,redis,mongodb,java,html,py,c,ts,js,deno,flutter,fastapi&perline=10)](https://ZER0X77.me)
+
+
+
+# My Stats☠︎︎
+![ GitHub stats](https://github-readme-stats.vercel.app/api?username=ZER0X77&show_icons=true&theme=radical)
+
+# Contact ☠︎︎
+<p align="center">
+<a href="https://telegram.me/GROUPVEGA"><img src="https://img.shields.io/badge/-CHAT%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+
+<p align="center">
+<a href="https://telegram.me/VEGAOne"><img src="https://img.shields.io/badge/-VEGA%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
